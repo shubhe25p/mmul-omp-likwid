@@ -1,7 +1,0 @@
-/global/u2/s/shubhp/mmul-omp-likwid/build/CMakeFiles/rebuild_cache.dir
-/global/u2/s/shubhp/mmul-omp-likwid/build/CMakeFiles/edit_cache.dir
-/global/u2/s/shubhp/mmul-omp-likwid/build/CMakeFiles/bench-blocked-omp.dir
-/global/u2/s/shubhp/mmul-omp-likwid/build/CMakeFiles/benchmark-blocked-omp.dir
-/global/u2/s/shubhp/mmul-omp-likwid/build/CMakeFiles/benchmark-blas.dir
-/global/u2/s/shubhp/mmul-omp-likwid/build/CMakeFiles/benchmark-basic-omp.dir
-/global/u2/s/shubhp/mmul-omp-likwid/build/CMakeFiles/benchmark.dir
