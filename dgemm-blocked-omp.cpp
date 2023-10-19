@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <omp.h>
 #include "likwid-stuff.h"
-
+#include <vector>
 const char* dgemm_desc = "Blocked dgemm, OpenMP-enabled";
 
 
@@ -27,7 +27,7 @@ void square_dgemm_blocked(int n, int block_size, double* A, double* B, double* C
    double *Bcopy = Ccopy + block_size * block_size;
    double *Acopy = Bcopy + block_size * block_size;
    LIKWID_MARKER_START(MY_MARKER_REGION_NAME);
-   #pragma omp parallel for
+   #pragma omp for
    for (int i0 = 0; i0 < n; i0 += block_size)
    {
       for (int j0 = 0; j0 < n; j0 += block_size)
